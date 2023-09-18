@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-secondary bg-opacity-55;
+}
+
+.shadow-main {
+    @apply rounded-container shadow-container-main;
+}
+
+.border-main {
+    @apply border border-gray-secondary border-opacity-55 rounded-container;
+}
+
+.navigation-button {
+    @apply border border-white py-2 px-3 hover:bg-white hover:text-orange-primary transition-all duration-200;
+}
+
+.navigation-button.active {
+    @apply bg-white text-orange-primary;
+}
+.chat-history-item-action {
+    @apply text-orange-primary hover:text-opacity-50 transition-all duration-200;
+}
